@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>youtube.com</title>
+        <style>
+            .top{
+                display: flex;
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                right: 0px;
+                background-color: rgb(0, 0, 0);
+                height: 45px;
+                justify-content: space-between;
+                flex: 100px 1 300px;
+            }
+            .right-top{
+                display: inline-block;
+            }
+            .middle-top{
+                display: inline-flex;
+            }
+            .left-top{
+                display: inline-block;
+            }
+            .side-icons{
+                position: fixed;
+                display: inline-block;
+                top: 45px;
+                left: 0px;
+                background-color: rgb(0, 0, 0);
+                bottom:0px;
+                width:50px;
+            }
+            .video{
+                display:inline-block;
+                width:280px;
+                margin-bottom: 20px;
+                margin-left: 10px;
+                border-color: white;
+                border-style: solid;
+    }
+        .video-image,
+        .video-preview,
+        .video-info,
+        .video-profile{
+            display:inline-block;
+        }
+        .video-stat,
+        .video-views{
+            display:inline-block;
+        border-color: white;
+        border-style: solid;
+        object-position: center;
+    }
+        .video-views{
+            margin-left: 64px;
+        }
+        .video-image{
+            width:100%;
+        }
+        .video-profile{
+            width:50px;
+        margin-left: 10px;
+    }
+        .profile-picture{
+            width:100%;
+        border-radius: 1000px;
+        height:auto;
+        display: inline-block;
+        border-color: white;
+        border-style: solid;
+    }
+        .video-info{
+            align-items: baseline;
+            border-color: white;
+        border-style: solid;
+    }
+        .video-preview{
+            width: 100%;
+        }
+        .search{
+            display:flex;
+            flex: 1;
+        align-content: center;
+        object-position: center;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        text-align: center;
+        font-size: medium;
+        background-color: rgb(54, 54, 54);
+        color: white;
+        border: transparent;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+        .search::placeholder{
+            font-size: medium;
+            font-family: Roboto;
+            color: white;
+        }
+        body{
+            color: white;
+            background-color: rgb(119, 118, 118);
+            padding-top: 45px;
+            padding-left: 35px;
+        }
+        .youtube-logo{
+            width: 120px;
+        }
+        .menu-button{
+            width: 55px;
+            border-radius: 25px;
+            padding-right: 10px;
+            padding-top: -2px;
+        }
+        .search-button{
+            margin-top: 5px;
+            margin-bottom: 5px;
+            height: 38px;
+            width: 10px;
+            border-top-right-radius: 25px;
+            border-bottom-right-radius: 25px;
+            padding-bottom: 10px;
+            padding-left: 5px;
+            object-position: top;
+        }
+        .search-button-img{
+            margin-top: -1.6px;
+            margin-bottom: -1.6px;
+            height: 35px;
+            margin-left: -7.5px;
+            border-top-right-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="top">
+            <div class="right-top">
+                <img src="dark theme menu.png" class="menu-button">
+                <img src="dark theme youtube logo.png" class="youtube-logo">
+            </div>
+            <div class="middle-top">
+                <input type="search" class="search" placeholder="Search">
+                <a href="#"><button class="search-button"><img src="search button.png" class="search-button-img"></button></a>
+            </div>
+            <div class="left-top">
+                <img src="video image.png" width="45px" style="padding-right: 15px;">
+                <img src="unnamed(1).jpg" style="border-radius: 18px;" width="36px" style="padding-right: 15px;">
+            </div>
+        </div>
+        <div class="side-icons">
+            <img src="dark theme home.png" height="40px" style="padding-top: 30px;">
+            <img src="dark theme playlist.png" height="40px" style="padding-top: 30px;">
+            <img src="dark theme subscription.png" height="40px" style="padding-top: 30px;">
+		 <img src="dark theme exploration" height="40px" style="padding-top:30px;">
+        </div>
+       <div class="video">
+        <div class="video-image">
+            <img src="sddefault (3).jpg" class="video-preview">
+        </div>
+        <div class="video-info">
+            <div class="video-profile">
+                <img src="unnamed.jpg" class="profile-picture">
+            </div>
+            <div class="video-stat">
+                <strong>Learn computer in PPCI</strong>
+            </div>
+            <div class="video-views">256k views . 3 years ago </div>
+        </div>
+       </div> 
+
+       <div class="video">
+        <div class="video-image">
+            <img src="sddefault_live.jpg" class="video-preview">
+        </div>
+        <div class="video-info">
+            <div class="video-profile">
+                <img src="unnamed.jpg" class="profile-picture">
+            </div>
+            <div class="video-stat">
+                <strong>Learn computer in PPCI</strong>
+            </div>
+            <div class="video-views">16M views . 2 years ago</div>
+        </div>
+       </div> 
+
+       <div class="video">
+        <div class="video-image">
+            <img src="sddefault (5).webp" class="video-preview">
+        </div>
+        <div class="video-info">
+            <div class="video-profile">
+                <img src="unnamed.jpg" class="profile-picture">
+            </div>
+            <div class="video-stat">
+                <strong>Learn computer in PPCI</strong>
+            </div>
+            <div class="video-views">16M views . 2 years ago</div>
+        </div>
+       </div> 
+
+       <div class="video">
+        <div class="video-image">
+            <img src="sddefault (3).webp" class="video-preview">
+        </div>
+        <div class="video-info">
+            <div class="video-profile">
+                <img src="unnamed.jpg" class="profile-picture">
+            </div>
+            <div class="video-stat">
+                <strong>Learn computer in PPCI</strong>
+            </div>
+            <div class="video-views">16M views . 2 years ago</div>
+        </div>
+       </div> 
+
+       <div class="video">
+        <div class="video-image">
+            <img src="sddefault (1).webp" class="video-preview">
+        </div>
+        <div class="video-info">
+            <div class="video-profile">
+                <img src="unnamed.jpg" class="profile-picture">
+            </div>
+            <div class="video-stat">
+                <strong>Learn computer in PPCI</strong>
+            </div>
+            <div class="video-views">16M views . 2 years ago</div>
+        </div>
+       </div> 
+
+       <div class="video">
+        <div class="video-image">
+            <img src="sddefault (2).webp" class="video-preview">
+        </div>
+        <div class="video-info">
+            <div class="video-profile">
+                <img src="unnamed.jpg" class="profile-picture">
+            </div>
+            <div class="video-stat">
+                <strong>Learn computer in PPCI</strong>
+            </div>
+            <div class="video-views">16M views . 2 years ago</div>
+        </div>
+       </div> 
+
+       <div class="video">
+        <div class="video-image">
+            <img src="sddefault (1).jpg" class="video-preview">
+        </div>
+        <div class="video-info">
+            <div class="video-profile">
+                <img src="unnamed.jpg" class="profile-picture">
+            </div>
+            <div class="video-stat">
+                <strong>Learn computer in PPCI</strong>
+            </div>
+            <div class="video-views">16M views . 2 years ago</div>
+        </div>
+       </div> 
+
+       <div class="video">
+        <div class="video-image">
+            <img src="sddefault (2).jpg" class="video-preview">
+        </div>
+        <div class="video-info">
+            <div class="video-profile">
+                <img src="unnamed.jpg" class="profile-picture">
+            </div>
+            <div class="video-stat">
+                <strong>Learn computer in PPCI</strong>
+            </div>
+            <div class="video-views">16M views . 2 years ago</div>
+        </div>
+       </div> 
+
+       <div class="video">
+        <div class="video-image">
+            <img src="sddefault (4).jpg" class="video-preview">
+        </div>
+        <div class="video-info">
+            <div class="video-profile">
+                <img src="unnamed.jpg" class="profile-picture">
+            </div>
+            <div class="video-stat">
+                <strong>Learn computer in PPCI</strong>
+            </div>
+            <div class="video-views">16M views . 2 years ago</div>
+        </div>
+       </div> 
+
+       <div class="video">
+        <div class="video-image">
+            <img src="sddefault.jpg" class="video-preview">
+        </div>
+        <div class="video-info">
+            <div class="video-profile">
+                <img src="unnamed.jpg" class="profile-picture">
+            </div>
+            <div class="video-stat">
+                <strong>Learn computer in PPCI</strong>
+            </div>
+            <div class="video-views">16M views . 2 years ago</div>
+        </div>
+       </div> 
+
+       <div class="video">
+        <div class="video-image">
+            <img src="sddefault (4).webp" class="video-preview">
+        </div>
+        <div class="video-info">
+            <div class="video-profile">
+                <img src="unnamed.jpg" class="profile-picture">
+            </div>
+            <div class="video-stat">
+                <strong>Learn computer in PPCI</strong>
+            </div>
+            <div class="video-views">16M views . 2 years ago</div>
+        </div>
+       </div> 
+
+       <div class="video">
+        <div class="video-image">
+            <img src="hq720(1).jpg" class="video-preview">
+        </div>
+        <div class="video-info">
+            <div class="video-profile">
+                <img src="unnamed.jpg" class="profile-picture">
+            </div>
+            <div class="video-stat">
+                <strong>Learn computer in PPCI</strong>
+            </div>
+            <div class="video-views">16M views . 2 years ago</div>
+        </div>
+       </div> 
+
+       <div class="video">
+        <div class="video-image">
+            <img src="hq720(2).jpg" class="video-preview">
+        </div>
+        <div class="video-info">
+            <div class="video-profile">
+                <img src="unnamed.jpg" class="profile-picture">
+            </div>
+            <div class="video-stat">
+                <strong>Learn computer in PPCI</strong>
+            </div>
+            <div class="video-views">16M views . 2 years ago</div>
+        </div>
+       </div> 
+
+       <div class="video">
+        <div class="video-image">
+            <img src="hq720(3).jpg" class="video-preview">
+        </div>
+        <div class="video-info">
+            <div class="video-profile">
+                <img src="unnamed.jpg" class="profile-picture">
+            </div>
+            <div class="video-stat">
+                <strong>Learn computer in PPCI</strong>
+            </div>
+            <div class="video-views">16M views . 2 years ago</div>
+        </div>
+       </div> 
+
+       <div class="video">
+        <div class="video-image">
+            <img src="hq720(4).jpg" class="video-preview">
+        </div>
+        <div class="video-info">
+            <div class="video-profile">
+                <img src="unnamed.jpg" class="profile-picture">
+            </div>
+            <div class="video-stat">
+                <strong>Learn computer in PPCI</strong>
+            </div>
+            <div class="video-views">16M views . 2 years ago</div>
+        </div>
+       </div> 
+
+       <div class="video">
+        <div class="video-image">
+            <img src="hq720(8).jpg" class="video-preview">
+        </div>
+        <div class="video-info">
+            <div class="video-profile">
+                <img src="unnamed.jpg" class="profile-picture">
+            </div>
+            <div class="video-stat">
+                <strong>Learn computer in PPCI</strong>
+            </div>
+            <div class="video-views">16M views . 2 years ago</div>
+        </div>
+       </div> 
+
+       <div class="video">
+        <div class="video-image">
+            <img src="hq720(9).jpg" class="video-preview">
+        </div>
+        <div class="video-info">
+            <div class="video-profile">
+                <img src="unnamed.jpg" class="profile-picture">
+            </div>
+            <div class="video-stat">
+                <strong>Learn computer in PPCI</strong>
+            </div>
+            <div class="video-views">16M views . 2 years ago</div>
+        </div>
+       </div> 
+
+       <div class="video">
+        <div class="video-image">
+            <img src="hq720.jpg" class="video-preview">
+        </div>
+        <div class="video-info">
+            <div class="video-profile">
+                <img src="unnamed.jpg" class="profile-picture">
+            </div>
+            <div class="video-stat">
+                <strong>Learn computer in PPCI</strong>
+            </div>
+            <div class="video-views">16M views . 2 years ago</div>
+        </div>
+       </div>
+
+         <div class="video">
+        <div class="video-image">
+            <img src="hq720 (7).webp" class="video-preview">
+        </div>
+        <div class="video-info">
+            <div class="video-profile">
+                <img src="unnamed.jpg" class="profile-picture">
+            </div>
+            <div class="video-stat">
+                <strong>Learn computer in PPCI</strong>
+            </div>
+            <div class="video-views">16M views . 2 years ago</div>
+        </div>
+       </div>
+       
+         <div class="video">
+        <div class="video-image">
+            <img src="hq720 (6).webp" class="video-preview">
+        </div>
+        <div class="video-info">
+            <div class="video-profile">
+                <img src="unnamed.jpg" class="profile-picture">
+            </div>
+            <div class="video-stat">
+                <strong>Learn computer in PPCI</strong>
+            </div>
+            <div class="video-views">16M views . 2 years ago</div>
+        </div>
+       </div>
+
+         <div class="video">
+        <div class="video-image">
+            <img src="hq720 (5).webp" class="video-preview">
+        </div>
+        <div class="video-info">
+            <div class="video-profile">
+                <img src="unnamed.jpg" class="profile-picture">
+            </div>
+            <div class="video-stat">
+                <strong>Learn computer in PPCI</strong>
+            </div>
+            <div class="video-views">16M views . 2 years ago</div>
+        </div>
+       </div>
+
+         <div class="video">
+        <div class="video-image">
+            <img src="hq720 (4).webp" class="video-preview">
+        </div>
+        <div class="video-info">
+            <div class="video-profile">
+                <img src="unnamed.jpg" class="profile-picture">
+            </div>
+            <div class="video-stat">
+                <strong>Learn computer in PPCI</strong>
+            </div>
+            <div class="video-views">16M views . 2 years ago</div>
+        </div>
+       </div>
+
+         <div class="video">
+        <div class="video-image">
+            <img src="hq720 (3).webp" class="video-preview">
+        </div>
+        <div class="video-info">
+            <div class="video-profile">
+                <img src="unnamed.jpg" class="profile-picture">
+            </div>
+            <div class="video-stat">
+                <strong>Learn computer in PPCI</strong>
+            </div>
+            <div class="video-views">16M views . 2 years ago</div>
+        </div>
+       </div>
+
+         <div class="video">
+        <div class="video-image">
+            <img src="hq720 (2).webp" class="video-preview">
+        </div>
+        <div class="video-info">
+            <div class="video-profile">
+                <img src="unnamed.jpg" class="profile-picture">
+            </div>
+            <div class="video-stat">
+                <strong>Learn computer in PPCI</strong>
+            </div>
+            <div class="video-views">16M views . 2 years ago</div>
+        </div>
+       </div>
+    </body>
+</html>
